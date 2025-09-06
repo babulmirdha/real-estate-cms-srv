@@ -1,7 +1,11 @@
+import Api from './Api'
+import ProjectController from './ProjectController'
 import Settings from './Settings'
 import Auth from './Auth'
 const Controllers = {
-    Settings,
+    Api,
+ProjectController,
+Settings,
 Auth,
 }
 
